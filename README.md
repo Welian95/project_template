@@ -139,7 +139,7 @@ Evtl. wirst du nach deiner Mail und deinem User-Namen gefragt gib diese an.
   ```
 - **Alternativ**: alles zusammen ausfürhern mit:
   ```bash
-  ./setup.sh
+  chmod +x setup.sh && ./setup.sh
   ```
 - **Starten von Streamlit-Skripten**:
   ```bash
