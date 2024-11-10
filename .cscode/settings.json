@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+    "python.venvPath": "${workspaceFolder}/venv",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": ["--disable=C0111"]
+}
