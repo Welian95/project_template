@@ -38,7 +38,7 @@ Folge den nachstehenden Schritten, um dieses Template für ein neues Projekt zu 
 2. **Setup-Skript ausführen**:
     - Im Terminal gibst du folgenden Befehl ein, um das Setup-Skript auszuführen:
       ```bash
-      ./setup.sh
+      chmod +x setup.sh && ./setup.sh
       ```
     - Dieses Skript erstellt eine virtuelle Umgebung und installiert alle Abhängigkeiten, die in der Datei `requirements.txt` definiert sind.
 
