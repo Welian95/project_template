@@ -44,6 +44,12 @@ Folge den nachstehenden Schritten, um dieses Template für ein neues Projekt zu 
 
 3. **VSCode Python Interpreter einstellen**:
     - VSCode sollte automatisch die virtuelle Umgebung erkennen. Wenn nicht, kannst du **Strg+Shift+P** öffnen und nach **Python: Select Interpreter** suchen. Wähle dort die virtuelle Umgebung aus, die im Ordner `venv` erstellt wurde.
+  
+4. **Teste ob das Skript läuft**:
+  - Führe den folgende Befehl aus um das Main-Skript zu starten::
+    ```bash
+    streamlit run src/main.py
+    ```
 
 ### Schritt 3: Projekt anpassen
 1. **Projektdateien bearbeiten**:
