@@ -137,11 +137,11 @@ Evtl. wirst du nach deiner Mail und deinem User-Namen gefragt gib diese an.
   ```bash
   deactivate
   ```
-- ** Alternativ **: alles zusammen ausfürhern mit:
+- **Alternativ**: alles zusammen ausfürhern mit:
   ```bash
   ./setup.sh
   ```
-- ** Starten von Streamlit-Skripten **:
+- **Starten von Streamlit-Skripten**:
   ```bash
   streamlit run src/main.py
   ```
