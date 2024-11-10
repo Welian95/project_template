@@ -60,23 +60,25 @@ Folge den nachstehenden Schritten, um dieses Template für ein neues Projekt zu 
     - Bearbeite die Datei `README.md`, um sie den spezifischen Anforderungen deines neuen Projekts anzupassen. Füge beispielsweise eine Beschreibung des Projekts, Kontaktinformationen, Lizenzdetails etc. hinzu.
 
 ### Schritt 4: Projekt auf GitHub pushen
-1. **Änderungen committen**:
-    - Öffne den **Source Control** Tab in VSCode (in der linken Leiste mit dem Git-Symbol).
-    - Gib eine **Commit Nachricht** ein, die beschreibt, was du geändert hast (z.B. "Initiale Projektanpassung"). Drücke auf das Häkchen-Symbol, um die Änderungen zu committen.
 
-2. **Änderungen pushen**:
-    - Klicke danach auf die **drei Punkte** (Ellipsen) oben im Source Control Menü und wähle **Push** aus, um die Änderungen zu GitHub hochzuladen.
-    - Alternativ kannst du auch über das Terminal pushen:
-      ```bash
-      git push origin main
-      ```
 
-3. **Neues Repository erstellen** (Optional):
+1. **Neues Repository erstellen** :
     - Wenn du das Template für ein **ganz neues Projekt** nutzen willst, erstelle zuerst ein neues leeres Repository auf GitHub.
     - Dann setze den **Git Remote** auf das neue Repository:
       ```bash
       git remote set-url origin <URL_neues_Repos>
       git push -u origin main
+      ```
+      
+2. **Änderungen am template committen** (Optional):
+    - Öffne den **Source Control** Tab in VSCode (in der linken Leiste mit dem Git-Symbol).
+    - Gib eine **Commit Nachricht** ein, die beschreibt, was du geändert hast (z.B. "Initiale Projektanpassung"). Drücke auf das Häkchen-Symbol, um die Änderungen zu committen.
+
+3. **Änderungen am template pushen** (Optional):
+    - Klicke danach auf die **drei Punkte** (Ellipsen) oben im Source Control Menü und wähle **Push** aus, um die Änderungen zu GitHub hochzuladen.
+    - Alternativ kannst du auch über das Terminal pushen:
+      ```bash
+      git push origin main
       ```
 
 ## Hinweise zur Nutzung
@@ -92,6 +94,10 @@ Folge den nachstehenden Schritten, um dieses Template für ein neues Projekt zu 
 - **Deaktivieren der virtuellen Umgebung**: Nach Beendigung deiner Arbeit kannst du die virtuelle Umgebung deaktivieren:
   ```bash
   deactivate
+  ```
+- ** Alternativ: alles zusammen ausfürhern mit:
+  ```bash
+  ./setup.sh
   ```
 
 ## Fertigstellen deines Projekts
