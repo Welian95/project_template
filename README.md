@@ -33,7 +33,7 @@ Folge den nachstehenden Schritten, um dieses Template für ein neues Projekt zu 
 
 ### Schritt 2: Neue virtuelle Umgebung einrichten
 1. **Terminal in VSCode öffnen**:
-    - Öffne das Terminal in VSCode, indem du **Strg+`** (Windows/Linux) oder **Cmd+`** (Mac) drückst.
+    - Öffne das Terminal in VSCode, indem du **Strg+\`** (Windows/Linux) oder **Cmd+J** (Mac) drückst.
 
 2. **Setup-Skript ausführen**:
     - Im Terminal gibst du folgenden Befehl ein, um das Setup-Skript auszuführen:
