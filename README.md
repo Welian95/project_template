@@ -63,18 +63,28 @@ Folge den nachstehenden Schritten, um dieses Template für ein neues Projekt zu 
 
 
 1. **Neues Repository erstellen** :
+   1. **Neues Repository erstellen** :
     - Wenn du das Template für ein **ganz neues Projekt** nutzen willst, erstelle zuerst ein neues leeres Repository auf GitHub.
     - Dann setze den **Git Remote** auf das neue Repository:
       ```bash
       git remote set-url origin <URL_neues_Repos>
       git push -u origin main
       ```
+    - **VSCode GitHub Integration anpassen**:
+      - Öffne **VSCode** und klicke auf den **Source Control** Tab (Git-Symbol in der linken Seitenleiste).
+      - Oben in der Seitenleiste findest du die Einstellungen für das Repository. Klicke auf die **drei Punkte** (Ellipsen) und wähle **Remote Repository ändern**.
+      - Gib die **URL des neuen Repositories** ein, die du gerade auf GitHub erstellt hast. Auf diese Weise wird dein Projekt nicht mehr mit dem Template, sondern mit dem neuen GitHub-Repository verbunden.
+
+      git remote set-url origin <URL_neues_Repos>
+      git push -u origin main
+      ```
+
       
-2. **Änderungen am template committen** (Optional):
+3. **Änderungen am template committen** (Optional):
     - Öffne den **Source Control** Tab in VSCode (in der linken Leiste mit dem Git-Symbol).
     - Gib eine **Commit Nachricht** ein, die beschreibt, was du geändert hast (z.B. "Initiale Projektanpassung"). Drücke auf das Häkchen-Symbol, um die Änderungen zu committen.
 
-3. **Änderungen am template pushen** (Optional):
+4. **Änderungen am template pushen** (Optional):
     - Klicke danach auf die **drei Punkte** (Ellipsen) oben im Source Control Menü und wähle **Push** aus, um die Änderungen zu GitHub hochzuladen.
     - Alternativ kannst du auch über das Terminal pushen:
       ```bash
