@@ -1,4 +1,4 @@
-#Project Template - Anleitung 
+# Project Template - Anleitung 
 
 Herzlich willkommen zu deinem Projekt-Template! Diese README beschreibt, wie du dieses Repository als Vorlage nutzen kannst, um damit neue Projekte zu erstellen. Der Prozess wird so beschrieben, dass alles in VSCode stattfindet und GitHub verwendet wird, um alles zu verwalten.
 
